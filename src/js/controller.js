@@ -129,6 +129,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newfeature = function () {
+  console.log('Welcome to the application ! for git tutorial');
+};
+
 const init = function () {
   bookmarkView.addHandlerRender(controlBookmark);
   recipeView.addHandlerRender(controlRecipes);
@@ -137,7 +141,7 @@ const init = function () {
   searchView.addHandlerSearch(controlSearchResults);
   paginationView._addHandlerClick(controlPagination);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log('Welcome');
+  newfeature();
 };
 
 init();
