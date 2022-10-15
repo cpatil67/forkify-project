@@ -2,6 +2,9 @@ import View from './View.js';
 
 import icons from 'url:../../img/icons.svg';
 import { Fraction } from 'fractional';
+// const Fraction = require('fractional').Fraction;
+// var Fraction = require('fractional');
+// const { Fraction } = require('fractional');
 // console.log(Fraction);
 
 class recipeView extends View {
