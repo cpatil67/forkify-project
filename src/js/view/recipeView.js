@@ -1,4 +1,5 @@
 import View from './View.js';
+import icons from 'url:../../img/icons.svg';
 // import { fracty } from 'fracty';
 // var fracty = require('fracty');
 // import { Fraction } from 'fractional';
