@@ -1,7 +1,6 @@
-const Fraction = require('fractional').Fraction;
 import View from './View.js';
-
-import icons from 'url:../../img/icons.svg';
+// import { fracty } from 'fracty';
+// var fracty = require('fracty');
 // import { Fraction } from 'fractional';
 // const Fraction = require('fractional').Fraction;
 // var Fraction = require('fractional');
@@ -136,10 +135,10 @@ class recipeView extends View {
     return `
        <li class="recipe__ingredient">
          <svg class="recipe__icon">
-          <use href="${icons}#icon-check"></use>
+          <use href="${icons}#icon-check"></use> 
          </svg>
          <div class="recipe__quantity">${
-           ing.quantity ? new Fraction(ing.quantity).toString() : ''
+           ing.quantity ? ing.quantity.toString() : ''
          }</div>
          <div class="recipe__description">
            <span class="recipe__unit">${ing.unit}</span>
